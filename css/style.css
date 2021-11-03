@@ -241,8 +241,8 @@ html,body {
 	margin: -120px 0 0 0;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: end;
+	justify-content: center;
+	align-items: flex-end;
 }
 
 .main__name{
@@ -266,17 +266,13 @@ html,body {
 
 .main__text{
 	flex: 1 1 33.333%;
-	text-align: left ;
-	position: relative;
+	text-align: left;
+	padding: 0 0 0 130px;
 }
 
 .main__text p{
 	text-align: justify;
 	font-weight: 500;
-	position: absolute;
-	bottom:0;
-	right: 0;
-	width: 70%;
 }
 
 .main__button{
@@ -312,6 +308,10 @@ html,body {
 	.main__name{
 		font-size: 135px;
 	}
+
+	.main__text{
+		padding: 0 0 0 100px;
+	}
 }
 
 @media (max-width: 840px) {
@@ -333,6 +333,10 @@ html,body {
 	.main__name{
 		font-size: 100px;
 	}
+
+	.main__text{
+		padding: 0 0 0 80px;
+	}
 }
 
 @media (max-width:669px){
@@ -348,6 +352,10 @@ html,body {
 
 	.main__row{
 		margin: -50px auto 0 auto;
+	}
+
+	.main__text{
+		padding: 0 0 0 50px;
 	}
 }
 
